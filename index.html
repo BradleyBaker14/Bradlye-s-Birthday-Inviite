@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bradley's 21st Birthday</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Add your animations here */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Apply animation to header */
+        header {
+            animation: fadeIn 1s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bradley's 21st Birthday Bash!</h1>
+        <p>Join us to celebrate Bradley's 21st birthday</p>
+        <div id="countdown"></div>
+        <a href="#rsvp" class="button">RSVP Now</a>
+    </header>
+
+    <section id="about">
+        <h2>About Bradley</h2>
+        <p>Bradley is turning 21! Come join us for a night of fun and celebration.</p>
+    </section>
+
+    <section id="event-details">
+        <h2>Event Details</h2>
+        <p><strong>Date:</strong> June 15, 2024</p>
+        <p><strong>Time:</strong> 6:00 PM - 11:00 PM</p>
+        <p><strong>Venue:</strong> XYZ Rooftop, City Center</p>
+        <p><strong>Dress Code:</strong> Semi-Formal</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14305.880413994473!2d28.079167!3d-26.311273!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95051af231f41f%3A0xc337a104e82e4b8d!2sRietvlei%20Zoo%20Farm!5e0!3m2!1sen!2sza!4v1715842320112!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section id="rsvp">
+        <h2>RSVP</h2>
+        <!-- Embed your form here -->
+        <div id="embedded-form" style>
+            <div formsappId="6645b01b045fe96c84261116"></div>
+            <script src="https://forms.app/static/embed.js" type="text/javascript" async defer onload="new formsapp('6645b01b045fe96c84261116', 'standard', {'width':'100vw','height':'600px'});"></script>    
+        </div>
+    </section>
+
+    <!-- <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery">
+            <img src="photo1.jpg" alt="Photo 1">
+            <img src="photo2.jpg" alt="Photo 2">
+            <img src="photo3.jpg" alt="Photo 3">
+        </div>
+    </section> -->
+
+    <footer>
+        <p>© 2024 Bradley's 21st Birthday</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
